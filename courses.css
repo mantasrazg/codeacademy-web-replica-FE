@@ -1,0 +1,64 @@
+h1 {
+  font-size: 48px;
+}
+
+.hero-banner {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+}
+
+.sidebar {
+  display: none;
+}
+
+/* ---------- COURSES ---------- */
+
+.course {
+  position: relative;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.course:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.course-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.course-feature {
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  display: inline-block;
+  background-color: #ff00e9;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 19px;
+}
+
+.course-description {
+  font-size: 14px;
+}
+
+.course-info > * {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.course-info > :not(:last-child) {
+  margin-right: 15px;
+}

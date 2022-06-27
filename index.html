@@ -14,6 +14,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -24,21 +26,26 @@
           src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg"
           alt="CodeAcademy logo"
         />
-        <img class="nav-close" src="cancel.png" alt="Close navigation" />
+        <img
+          id="burger"
+          class="nav-close"
+          src="cancel.png"
+          alt="Close navigation"
+        />
       </div>
-      <nav>
+      <nav id="nav">
         <ul>
           <li><a href="#">Studentams</a></li>
           <li><a href="#">Verslui</a></li>
-          <li><a href="#">Programos</a></li>
+          <li><a href="courses.html">Programos</a></li>
           <li><a href="#">Apie mus</a></li>
           <li><a href="news.html">Naujienos</a></li>
           <li><a href="#">IT testas</a></li>
           <li><a href="#">Kontaktai</a></li>
           <li><a href="#">EN</a></li>
         </ul>
+        <a class="call">Skambinti</a>
       </nav>
-      <button class="call">Skambinti</button>
     </header>
   </body>
 </html>

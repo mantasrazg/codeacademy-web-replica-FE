@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="courses.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Programos</h1>
+
+      <a href="#" class="hero-banner"
+        ><img
+          class="hero-img"
+          src="https://codeacademy.lt/wp-content/uploads/2021/05/Mobile_banner.jpg"
+          alt="Picture"
+      /></a>
+      <div class="sidebar">
+        <span>Rasta 30 programų</span>
+        <form>
+          <div class="input-field">
+            <label for="subject">Tema</label>
+            <select name="subject" id="subject">
+              <option value="all" selected>Visos</option>
+              <option value="testing">Testavimas</option>
+              <option value="coding">Programavimas</option>
+              <option value="design">Dizainas</option>
+              <option value="data">Duomenys</option>
+              <option value="marketing">Rinkodara</option>
+            </select>
+          </div>
+
+          <div class="input-field">
+            <label for="location">Vieta</label>
+            <select name="location" id="location">
+              <option value="all" selected>Visos</option>
+              <option value="online">Online</option>
+              <option value="vln">Vilnius</option>
+              <option value="kaun">Kaunas</option>
+              <option value="klp">Klaipėda</option>
+            </select>
+          </div>
+
+          <div class="input-field">
+            <label for="type">Tipas</label>
+            <select name="type" id="type">
+              <option value="all" selected>Visi</option>
+              <option value="beginner">Pradedančių kursai</option>
+              <option value="advanced">Pažengusių studijos</option>
+              <option value="combined">1 + 2 lygis</option>
+              <option value="101">Studijos 101</option>
+              <option value="funded">Finansuojama UŽT</option>
+              <option value="free">Nemokamos studijos</option>
+            </select>
+          </div>
+
+          <div class="time-checkbox">
+            <span>Laikas</span>
+            <input type="checkbox" name="day" id="day" />
+            <label for="day">Dienomis</label>
+            <input type="checkbox" name="night" id="night" />
+            <label for="night">Vakarais</label>
+          </div>
+
+          <button class="reset" type="reset">Išvalyti</button>
+        </form>
+      </div>
+
+      <div class="courses">
+        <div class="course">
+          <img
+            class="course-img"
+            src="https://codeacademy.lt/wp-content/uploads//2021/03/Fron-End_dark-1.svg"
+            alt="Logo"
+          />
+          <h2 class="course-title">Front-end Serverless studijos</h2>
+          <p class="course-description">
+            Front-End programuotojas, pasitelkdamas HTML, CSS ir JavaScript,
+            kuria vartotojui matomą sąsają. Todėl jo darbas yra ne tik
+            techninio, bet ir kūrybinio pobūdžio.
+          </p>
+          <div class="course-info">
+            <div class="course-type">1 Lygis</div>
+            <div class="course-time">Dienomis</div>
+          </div>
+        </div>
+
+        <div class="course">
+          <img
+            class="course-img"
+            src="https://codeacademy.lt/wp-content/uploads//2021/03/Fron-End_dark-1.svg"
+            alt="Logo"
+          />
+          <h2 class="course-title">Front-end Serverless studijos</h2>
+          <p class="course-description">
+            Front-End programuotojas, pasitelkdamas HTML, CSS ir JavaScript,
+            kuria vartotojui matomą sąsają. Todėl jo darbas yra ne tik
+            techninio, bet ir kūrybinio pobūdžio.
+          </p>
+          <div class="course-info">
+            <div class="course-type">1 Lygis</div>
+            <div class="course-time">Dienomis</div>
+          </div>
+        </div>
+
+        <div class="course">
+          <img
+            class="course-img"
+            src="https://codeacademy.lt/wp-content/uploads//2021/03/Fron-End_dark-1.svg"
+            alt="Logo"
+          />
+
+          <h2 class="course-title">Front-end Serverless studijos</h2>
+          <p class="course-description">
+            Front-End programuotojas, pasitelkdamas HTML, CSS ir JavaScript,
+            kuria vartotojui matomą sąsają. Todėl jo darbas yra ne tik
+            techninio, bet ir kūrybinio pobūdžio.
+          </p>
+          <div class="course-info">
+            <div class="course-type">1 Lygis</div>
+            <div class="course-time">Dienomis</div>
+          </div>
+        </div>
+
+        <div class="course">
+          <img
+            class="course-img"
+            src="https://codeacademy.lt/wp-content/uploads//2021/03/Fron-End_dark-1.svg"
+            alt="Logo"
+          />
+          <div class="course-feature">Nemokama</div>
+          <h2 class="course-title">Front-end Serverless studijos</h2>
+          <p class="course-description">
+            Front-End programuotojas, pasitelkdamas HTML, CSS ir JavaScript,
+            kuria vartotojui matomą sąsają. Todėl jo darbas yra ne tik
+            techninio, bet ir kūrybinio pobūdžio.
+          </p>
+          <div class="course-info">
+            <div class="course-type">1 Lygis</div>
+            <div class="course-time">Dienomis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
